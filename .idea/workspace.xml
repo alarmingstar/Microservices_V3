@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7307e8a3-f36d-4011-a1c9-a25421361e4e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +57,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.CurrencyExchangeServiceApplication.executor": "Run",
+    "Spring Boot.NamingServerApplication.executor": "Run",
     "git-widget-placeholder": "develop",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
@@ -88,7 +86,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CurrencyExchangeServiceApplication">
+  <component name="RunManager" selected="Spring Boot.CurrencyExchangeServiceApplication">
     <configuration name="CurrencyExchangeServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.in28minutes.microservices.currencyexchangeservice.CurrencyExchangeServiceApplication" />
       <module name="currency-exchange-service" />
@@ -183,7 +181,7 @@
       <workItem from="1756225200315" duration="1103000" />
       <workItem from="1756226308989" duration="8000" />
       <workItem from="1756226382151" duration="1918000" />
-      <workItem from="1756228313954" duration="650000" />
+      <workItem from="1756228313954" duration="1103000" />
     </task>
     <servers />
   </component>
