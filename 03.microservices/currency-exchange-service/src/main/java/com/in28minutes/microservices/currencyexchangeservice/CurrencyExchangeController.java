@@ -2,7 +2,6 @@ package com.in28minutes.microservices.currencyexchangeservice;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -19,11 +18,13 @@ public class CurrencyExchangeController {
 
     private final Logger logger = LoggerFactory.getLogger(CurrencyExchangeController.class);
 
-    @Autowired
-    private CurrencyExchangeRepository repository;
+    private final CurrencyExchangeRepository repository;
+    private final Environment environment;
 
-    @Autowired
-    private Environment environment;
+    public CurrencyExchangeController(CurrencyExchangeRepository repository, Environment environment) {
+        this.repository = repository;
+        this.environment = environment;
+    }
 
     @GetMapping("/from/{from}/to/{to}")
     public CurrencyExchange retrieveExchangeValue(
