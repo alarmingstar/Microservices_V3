@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 //@FeignClient(name="currency-exchange", url="localhost:8000")
 // let eureka server find the instance of currency-exchange service
+// with the help of Spring Cloud LoadBalancer contained in spring-cloud-starter-openfeign
 @FeignClient(name = "currency-exchange")
 public interface CurrencyExchangeProxy {
 
