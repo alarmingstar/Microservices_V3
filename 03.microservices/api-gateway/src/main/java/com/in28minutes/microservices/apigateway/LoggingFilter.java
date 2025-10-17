@@ -22,3 +22,11 @@ public class LoggingFilter implements GlobalFilter {
     }
 
 }
+
+//Aspect	           Explanation
+//What it is	       A global request logging filter in Spring Cloud Gateway
+//Implements	       GlobalFilter (applies to all routes)
+//Reactive type	       Returns Mono<Void> (non-blocking reactive stream)
+//Framework	           Built on Spring WebFlux & Project Reactor
+//Purpose	           Log the incoming request path without blocking threads
+//Approach	           Reactive programming (asynchronous, non-blocking)
