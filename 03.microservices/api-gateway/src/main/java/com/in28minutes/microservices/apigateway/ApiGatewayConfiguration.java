@@ -30,3 +30,14 @@ public class ApiGatewayConfiguration {
     }
 
 }
+
+
+/*
+ * Important ::: any breakpoint here will not work as this is a configuration class
+ *  and is not called directly. The routes defined here will be used by the Spring Cloud Gateway
+ *  to route requests to the appropriate microservices. To test the routing,
+ *  you can send HTTP requests to the API Gateway and verify that they are correctly
+ *  routed to the target services.
+ */
+
+
